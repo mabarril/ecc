@@ -1,0 +1,4 @@
+# Ignorar os certificados do repositório Git (não commitar chaves privadas!)
+*.pem
+*.key
+*.crt
