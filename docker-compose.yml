@@ -31,7 +31,7 @@ services:
   # ── API Node.js / Express ────────────────────────────────────────────
   ecc-api:
     build:
-      context: ./ecc-admin-api
+      context: ./ecc-admin-backend
       dockerfile: Dockerfile
     container_name: ecc-api
     restart: unless-stopped
